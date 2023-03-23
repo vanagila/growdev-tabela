@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      table {
+        width: 50%;
+        border-collapse: collapse;
+      }
+
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      th {
+        height: 100px;
+      }
+
+      td {
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Exercício 1</a>
+    <a href="tabela3.html">Exercício 3</a>
+    <br />
+    <br />
+
+    <table>
+      <thead>
+        <th colspan="2">TOPO</th>
+      </thead>
+
+      <tbody>
+        <tr style="text-align: center">
+          <td>MENU</td>
+          <td>CONTEÚDO</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th colspan="2">RODAPÉ</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

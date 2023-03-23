@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      table {
+        width: 50%;
+        border-collapse: collapse;
+      }
+
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      th,
+      td {
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="tabela2.html">Exercício 2</a>
+    <a href="tabela3.html">Exercício 3</a>
+    <br />
+    <br />
+
+    <table>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+
+        <tr style="text-align: center">
+          <td>4</td>
+          <td>5</th>
+          <td>6</th>
+        </tr>
+
+        <tr style="text-align: right">
+          <td>7</th>
+          <td>8</td>
+          <td>9</th>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+
+    <table>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>2</th>
+          <td>3</td>
+        </tr>
+
+        <tr>
+          <td colspan="3" style="text-align: center;">4</td>
+        </tr>
+
+        <tr style="text-align: left">
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+
+    <table>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td rowspan="3" style="text-align: center">3</td>
+        </tr>
+
+        <tr>
+          <td colspan="2" style="text-align: center">4</td>
+        </tr>
+
+        <tr style="text-align: left">
+          <td>5</td>
+          <td>6</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
